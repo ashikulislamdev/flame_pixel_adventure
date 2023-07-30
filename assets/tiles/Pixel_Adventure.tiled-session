@@ -6,13 +6,25 @@
     "activeFile": "",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Level-01.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
             "scale": 1.135546875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 320.110079119367,
-                "y": 184.05228758169935
+                "x": 317.0278637770898,
+                "y": 177.88785689714484
+            }
+        },
+        "Level-02.tmx": {
+            "scale": 1.16078125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320.47381881814505,
+                "y": 184.35859469645982
             }
         },
         "lavel-01.tmx": {

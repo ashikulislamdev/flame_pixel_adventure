@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="9">
  <tileset firstgid="1" source="Pixel_Adventure.tsx"/>
- <layer id="1" name="Tile Layer 1" width="40" height="23">
+ <layer id="1" name="Background" width="40" height="23" locked="1">
   <data encoding="csv">
 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,112,112,24,24,24,
@@ -28,4 +28,7 @@
 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
 </data>
  </layer>
+ <objectgroup id="4" name="Spownpoints">
+  <object id="8" name="Player" type="Player" x="213.284" y="206.239" width="32" height="32"/>
+ </objectgroup>
 </map>
