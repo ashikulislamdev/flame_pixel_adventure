@@ -7,8 +7,12 @@ late TiledComponent level;
 
 class Level extends World {
   final String levelName;
+  final Player player;
 
-  Level({required this.levelName});
+  Level({
+    required this.levelName,
+    required this.player,
+  });
 
   //to load assets
   @override
@@ -22,10 +26,7 @@ class Level extends World {
     for (var spownPoint in spownPointsPlayer!.objects) {
       switch (spownPoint.class_) {
         case "Player":
-          final player = Player(
-              character: 'Mask Dude',
-              position: Vector2(spownPoint.x, spownPoint.y));
-
+          player.position = Vector2(spownPoint.x, spownPoint.y);
           add(player);
           break;
         default:
